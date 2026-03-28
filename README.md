@@ -1,21 +1,18 @@
 📘 Facial Recognition Attendance System
 
+Output of the project
+<img width="636" height="514" alt="Image" src="https://github.com/user-attachments/assets/95201696-d9b2-41fe-bd8c-cf88d5050ef9" />
+
 A real-time facial recognition–based attendance system that identifies known individuals via webcam and automatically records their attendance with timestamps.
 
 Built using Python, OpenCV, face_recognition, and dlib.
 
 **✨ Key Features**
-
 Real-time face detection and recognition
-
 Automatic attendance logging with date & time
-
 Prevents duplicate entries during a session
-
 Simple folder-based user management
-
 CSV export for easy reporting
-
 Easily extensible — just add new face images
 
 **📁 Project Structure**
@@ -99,10 +96,6 @@ Name, Time
 Aditya, 10:23:41
 Priya, 10:24:05
 
-🧯 Troubleshooting
-❌ GitHub Not Uploading All Folders
-Cause
-
 GitHub does NOT upload empty folders.
 
 If your directories contain no files, they will silently disappear.
@@ -145,27 +138,11 @@ Install CMake + add to PATH, or use precompiled .whl.
 ❌ cv2 Installed But Still Not Loading
 
 **Most common causes:**
-1. Multiple Python Versions
+Multiple Python Versions
 Check:
 where python
 where pip
 They MUST point to same environment.
-
-2. Installed Outside Virtual Env
-Activate .venv first:
-.\.venv\Scripts\activate
-Then reinstall packages.
-
-3. Missing Visual C++ Runtime
-Install:
-https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
-
-📌 Professional Tips
-Use Python 3.9 or 3.10 for best compatibility
-Use good lighting for recognition accuracy
-Avoid blurry images
-One face per image
-Name folders clearly
 
 🔮 Future Enhancements (Optional)
 Excel export
